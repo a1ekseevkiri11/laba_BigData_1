@@ -7,7 +7,7 @@ COLUMN_CONTINENT = 3
 COLUMN_YEAR = [4, 5, 6, 7, 8, 9, 10, 11]
 COLUMN_AREA = 12
 
-COUNT_YEAR = 52
+COUNT_YEAR = len(COLUMN_YEAR)
 
 
 wb = openpyxl.open("laba.xlsx")
